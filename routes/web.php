@@ -33,6 +33,14 @@ Route::get('/rooster', function () {
     return Inertia::render('Rooster');
 })->middleware(['auth', 'verified'])->name('rooster');
 
+Route::get('/studie', function () {
+    return Inertia::render('Studie/Studie');
+})->middleware(['auth', 'verified'])->name('studie');
+
+Route::get('/opleiding', function () {
+    return Inertia::render('Studie/Opleiding');
+})->middleware(['auth', 'verified'])->name('opleiding');
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
