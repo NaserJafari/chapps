@@ -12,7 +12,17 @@ export default function Rooster(props) {
                 </h2>
             }
         >
+
+
             <Head title="Rooster" />
+            <div className="my-10 bg-black ">
+                    test
+
+            </div>
+
         </AuthenticatedLayout>
+
+
+
     );
 }
