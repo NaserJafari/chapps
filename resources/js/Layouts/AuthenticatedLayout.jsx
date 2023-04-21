@@ -34,6 +34,12 @@ export default function Authenticated({ auth, header, children }) {
                                 >
                                     Rooster
                                 </NavLink>
+                                <NavLink
+                                    href={route("studie")}
+                                    active={route().current("studie")}
+                                >
+                                    Studie
+                                </NavLink>
                             </div>
                         </div>
 

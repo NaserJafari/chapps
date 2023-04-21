@@ -54,8 +54,17 @@ export default function Opleiding(props) {
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                         <div className="p-6 text-gray-900 dark:text-gray-100">
-                            <h1 className="text-base">Software Developer</h1>
-                            <p className="text-xs">25604</p>
+                            <h1 className="text-base m-1">
+                                Software Developer
+                            </h1>
+                            <p className="text-xs m-1">25604</p>
+                            <p className="text-xs bg-green-600 m-1 w-10 p-1   rounded">
+                                Actief
+                            </p>
+                            <p className="text-xs m-1">BOL</p>
+                            <p className="text-xs m-1">Groep</p>
+                            <p className="text-xs m-1">Niveau 4</p>
+                            <p className="text-xs m-1">Voltijd</p>
                         </div>
                     </div>
                 </div>
